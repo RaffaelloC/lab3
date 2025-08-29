@@ -1,0 +1,15 @@
+import com.google.gson.*;
+
+
+public class Convert{
+    public static class Old_Order{
+        int order_id;
+        String type;
+        String order_type
+
+    }
+    public static void main(String[] args){
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        
+    }
+}

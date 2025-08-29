@@ -1,19 +1,15 @@
 package user_utils;
 
-import java.util.ArrayList;
-import java.io.*;
 
 public class User {
     public String username;
     private String password;
     private String nonce;
-    private ArrayList<Integer> pending_operations;
     
     public User(String username, String password, String nonce){
         this.username = username;
         this.password = password;
         this.nonce = nonce;
-        this.pending_operations = new ArrayList<Integer>();
     }
     
     public void get_status(){
